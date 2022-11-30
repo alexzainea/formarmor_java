@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controleur.FenFXML_Princip_Controleur">
+   <children>
+      <MenuBar id="mbMain" fx:id="mbMain" layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu id="mbVoir" fx:id="mbVoir" mnemonicParsing="false" text="Voir" />
+          <Menu id="mbModif" fx:id="mbModif" mnemonicParsing="false" text="Modifier" />
+          <Menu id="mbAjout" fx:id="mbAjout" mnemonicParsing="false" text="Ajouter" />
+            <Menu id="mbSuppr" fx:id="mbSuppr" mnemonicParsing="false" text="Supprimer" />
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
